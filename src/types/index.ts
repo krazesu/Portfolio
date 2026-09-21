@@ -4,6 +4,13 @@ export interface ContactLink {
   href: string
 }
 
+export interface EducationItem {
+  degree: string
+  institution: string
+  year: string
+  detail?: string
+}
+
 export interface SkillGroup {
   category: string
   items: string[]
@@ -28,6 +35,7 @@ export interface ResumeData {
   status: string // e.g. "Open to opportunities"
   contact: ContactLink[]
   about: string[]
+  education: EducationItem[]
   skills: SkillGroup[]
   projects: Project[]
   resumeFileHref: string // path to a PDF resume in /public

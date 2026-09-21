@@ -22,6 +22,21 @@ export const resume: ResumeData = {
     'I have also participated in an AI Bootcamp focused on Agentic AI, Large Language Models (LLMs), and Computer Vision, further broadening my knowledge of emerging technologies. '
   ],
 
+  education: [
+    {
+      degree: 'B.S. in Computer Engineering',
+      institution: 'University of the Philippines Diliman',
+      year: '2021 – 2026',
+      detail: 'Graduated Magna cum laude',
+    },
+    {
+      degree: '',
+      institution: 'Philippine Science High School - Eastern Visayas Campus',
+      year: '2015-2021',
+      detail: 'Graduated with High Honors',
+    },
+  ],
+
   skills: [
     { category: 'Languages', items: ['JavaScript', 'TypeScript', 'C/C++','Python', 'SQL'] },
     { category: 'Frontend', items: ['React', 'Vite', 'CSS / Tailwind'] },

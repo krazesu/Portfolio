@@ -20,3 +20,73 @@
 .about-copy p:last-child {
   margin-bottom: 0;
 }
+
+.education {
+  margin-top: 2.25rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--rule);
+}
+
+.education-heading {
+  margin: 0 0 1rem;
+}
+
+.education-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.education-item:first-child {
+  padding-top: 0;
+}
+
+.education-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.education-degree {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: -0.005em;
+}
+
+.education-institution {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.education-detail {
+  margin: 0.3rem 0 0;
+  font-size: 0.88rem;
+  color: var(--ink-faint);
+  max-width: 46ch;
+}
+
+.education-year {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 560px) {
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.35rem;
+  }
+}

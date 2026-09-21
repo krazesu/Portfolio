@@ -2,14 +2,14 @@ import type { ResumeData } from '../types'
 
 export const resume: ResumeData = {
   name: 'Kriz Greg D. Urmeneta',
-  title: 'Aspiring Software Engineer',
+  title: 'Computer Engineering Graduate',
   location: 'Manila, PH',
   status: 'Open to opportunities',
   summary:
     'I build reliable software applications end to end with an emphasis on clarity, performance, and maintainable code.',
 
   contact: [
-    { label: 'Email', value: 'kriz.greg.work@gmail.com', href: 'mailto:kriz.greg.work@gmail.com' },
+    { label: 'Email', value: 'krizgreg.urmeneta.work@gmail.com', href: 'mailto:krizgreg.urmeneta.work@gmail.com' },
     { label: 'GitHub', value: 'github.com/krazesu', href: 'https://github.com/krazesu' },
     { label: 'LinkedIn', value: 'linkedin.com/in/kriz-greg-urmeneta', href: 'https://linkedin.com/in/kriz-greg-urmeneta' },
   ],
@@ -17,16 +17,16 @@ export const resume: ResumeData = {
   resumeFileHref: '/resume.pdf',
 
   about: [
-    'I am a fresh graduate seeking opportunity in Software Engineering where I can contribute to meaningful projects while continuously developing my technical skills.;',
-    'I have university experience in using Python, C++, and Rust. Currently, I am expanding my skills in full-stack development through personal projects using HTML, JavaScript, and Java.',
+    'I am a fresh graduate seeking opportunity in Software Engineering where I can contribute to meaningful projects while continuously developing my technical skills.',
+    'I have university experience in using Python, C++, and Rust. Currently, I am expanding my skills in full-stack development through personal projects using HTML, JavaScript, Typescript, and Java.',
     'I have also participated in an AI Bootcamp focused on Agentic AI, Large Language Models (LLMs), and Computer Vision, further broadening my knowledge of emerging technologies. '
   ],
 
   skills: [
-    { category: 'Languages', items: ['TypeScript', 'JavaScript', 'Python', 'SQL'] },
-    { category: 'Frontend', items: ['React', 'Vite', 'Next.js', 'CSS / Tailwind'] },
-    { category: 'Backend', items: ['Node.js', 'Express', 'PostgreSQL', 'REST APIs'] },
-    { category: 'Tooling', items: ['Git', 'Docker', 'CI/CD', 'Vitest'] },
+    { category: 'Languages', items: ['JavaScript', 'TypeScript', 'C/C++','Python', 'SQL'] },
+    { category: 'Frontend', items: ['React', 'Vite', 'CSS / Tailwind'] },
+    { category: 'Backend', items: ['Node.js', 'Express', 'SQL/NoSQL', 'REST APIs'] },
+    { category: 'Tooling', items: ['Git', 'Docker', 'Postman'] },
   ],
 
   projects: [

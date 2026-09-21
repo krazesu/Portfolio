@@ -14,7 +14,7 @@ export const resume: ResumeData = {
     { label: 'LinkedIn', value: 'linkedin.com/in/kriz-greg-urmeneta', href: 'https://linkedin.com/in/kriz-greg-urmeneta' },
   ],
 
-  resumeFileHref: '/resume.pdf',
+  resumeFileHref: '/KrizGreg_Urmeneta_Resume.pdf',
 
   about: [
     'I am a fresh graduate seeking opportunity in Software Engineering where I can contribute to meaningful projects while continuously developing my technical skills.',

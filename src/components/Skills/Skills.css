@@ -1,0 +1,42 @@
+/* ── Skills ─────────────────────────────────────────────── */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.skill-group {
+  padding: 1.5rem 1.5rem 1.5rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.skill-group:not(:last-child) {
+  border-right: 1px solid var(--rule);
+}
+
+@media (max-width: 799px) {
+  .skill-group:not(:last-child) {
+    border-right: none;
+  }
+}
+
+.skill-group h3 {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 0.9rem;
+}
+
+.skill-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-group li {
+  font-size: 0.98rem;
+  padding: 0.35rem 0;
+}

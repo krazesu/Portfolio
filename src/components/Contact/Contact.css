@@ -1,0 +1,59 @@
+/* ── Contact ────────────────────────────────────────────── */
+.contact-section {
+  padding-bottom: clamp(4rem, 8vw, 6rem);
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+@media (min-width: 800px) {
+  .contact-grid {
+    grid-template-columns: 1.3fr 1fr;
+  }
+}
+
+.contact-lede {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  margin: 0 0 1.5rem;
+  max-width: 16ch;
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--rule);
+}
+
+.contact-list li {
+  border-bottom: 1px solid var(--rule);
+}
+
+.contact-list a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+.contact-list .meta-label {
+  color: var(--ink-faint);
+}
+
+.contact-list .value {
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
+.contact-list a:hover .value {
+  color: var(--accent);
+}

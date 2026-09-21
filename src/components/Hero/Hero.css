@@ -41,7 +41,6 @@
 }
 
 .hero h1 .accent {
-  font-size: clamp(2.6rem, 4vw, 4.6rem);
   color: var(--accent);
 }
 
@@ -52,12 +51,26 @@
   margin: 0;
 }
 
+.hero-card {
+  border-left: 1px solid var(--rule);
+  padding-left: 1.5rem;
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  max-height: 250px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border: 1px solid var(--ink);
+  margin-bottom: 1.5rem;
+}
+
 .hero-facts {
   display: flex;
   flex-direction: column;
   gap: 1.1rem;
-  border-left: 1px solid var(--rule);
-  padding-left: 1.5rem;
 }
 
 .hero-fact dt {
@@ -80,4 +93,3 @@
   margin-top: 2rem;
   flex-wrap: wrap;
 }
-

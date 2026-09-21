@@ -14,6 +14,9 @@ export const resume: ResumeData = {
     { label: 'LinkedIn', value: 'linkedin.com/in/kriz-greg-urmeneta', href: 'https://linkedin.com/in/kriz-greg-urmeneta' },
   ],
 
+  profileImageSrc: '/profile.png',
+  profileImageAlt: 'Portrait of Kriz Greg D. Urmeneta',
+
   resumeFileHref: '/KrizGreg_Urmeneta_Resume.pdf',
 
   about: [

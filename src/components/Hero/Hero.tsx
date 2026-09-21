@@ -2,7 +2,10 @@ import type { ResumeData } from '../../types'
 import './Hero.css'
 
 interface Props {
-  data: Pick<ResumeData, 'name' | 'title' | 'location' | 'status' | 'summary' | 'resumeFileHref'>
+  data: Pick<
+    ResumeData,
+    'name' | 'title' | 'location' | 'status' | 'summary' | 'resumeFileHref' | 'profileImageSrc' | 'profileImageAlt'
+  >
 }
 
 export default function Hero({ data }: Props) {
@@ -30,20 +33,29 @@ export default function Hero({ data }: Props) {
           </div>
         </div>
 
-        <dl className="hero-facts">
-          <div className="hero-fact">
-            <dt>Role</dt>
-            <dd>{data.title}</dd>
-          </div>
-          <div className="hero-fact">
-            <dt>Location</dt>
-            <dd>{data.location}</dd>
-          </div>
-          <div className="hero-fact">
-            <dt>Status</dt>
-            <dd>{data.status}</dd>
-          </div>
-        </dl>
+        <div className="hero-card">
+          <img
+            className="hero-photo"
+            src={data.profileImageSrc}
+            alt={data.profileImageAlt}
+            width={320}
+            height={400}
+          />
+          <dl className="hero-facts">
+            <div className="hero-fact">
+              <dt>Role</dt>
+              <dd>{data.title}</dd>
+            </div>
+            <div className="hero-fact">
+              <dt>Location</dt>
+              <dd>{data.location}</dd>
+            </div>
+            <div className="hero-fact">
+              <dt>Status</dt>
+              <dd>{data.status}</dd>
+            </div>
+          </dl>
+        </div>
       </div>
     </section>
   )

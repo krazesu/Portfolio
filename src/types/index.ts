@@ -33,6 +33,8 @@ export interface ResumeData {
   location: string
   summary: string
   status: string // e.g. "Open to opportunities"
+  profileImageSrc: string
+  profileImageAlt: string
   contact: ContactLink[]
   about: string[]
   education: EducationItem[]
